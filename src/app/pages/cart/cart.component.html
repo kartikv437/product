@@ -1,0 +1,96 @@
+<app-header></app-header>
+
+<div class="cart-item">
+    <a class="back-btn" (click)="backToProduct()"> back </a>
+    <div>
+        <div class="cart-detail" *ngIf="productArray[0].itemCount > 0">
+            <a routerLink="/product" class="col-width">
+                <div>
+                    <img src="assets/images/refrigerator.jpg" class="item-pic1" alt="">
+                </div>
+            </a>
+            <div class="col-width">
+                <div>
+                    <a routerLink="/product">LG 679 L Frost Free</a>
+                </div>
+                <span>
+                    73,990rs
+                </span>
+            </div>
+            <div class="cart-addOn col-width">
+                <div class="cart-count">
+                    <button (click)="removeItem(0)">-</button>
+                    <div>
+                        {{productArray[0].itemCount }}
+                    </div>
+                    <button (click)="addItem(0)">+</button>
+                </div>
+                <div>
+                    <a style="cursor: pointer;" (click)="removeFromCart(0)">Remove</a>
+                </div>
+            </div>
+        </div>
+        <div class="cart-detail" *ngIf="productArray[1].itemCount > 0">
+            <a routerLink="/product" class="col-width">
+                <div>
+                    <img src="assets/images/washing_machine.jpg" class="item-pic1" alt="">
+                </div>
+            </a>
+            <div class="col-width">
+                <div>
+                    <a routerLink="/product">LG 7Kg 5 Star</a>
+                </div>
+                <span>
+                    29,690 rs
+                </span>
+            </div>
+            <div class="cart-addOn col-width">
+                <div class="cart-count">
+                    <button (click)="removeItem(1)">-</button>
+                    <div>
+                        {{productArray[1].itemCount}}
+                    </div>
+                    <button (click)="addItem(1)">+</button>
+                </div>
+                <div>
+                    <a style="cursor: pointer;" (click)="removeFromCart(1)">Remove</a>
+                </div>
+            </div>
+        </div>
+        <div class="cart-detail" *ngIf="productArray[2].itemCount > 0">
+            <a routerLink="/product" class="col-width">
+                <div>
+                    <img src="assets/images/laptop.jpg" class="item-pic1" alt="">
+                </div>
+            </a>
+            <div class="col-width">
+                <div>
+                    <a routerLink="/product">Lenovo V15 Intel Core</a>
+                </div>
+                <span>
+                    44,590rs
+                </span>
+            </div>
+            <div class="cart-addOn col-width">
+                <div class="cart-count">
+                    <button (click)="removeItem(2)">-</button>
+                    <div>
+                        {{productArray[2].itemCount }}
+                    </div>
+                    <button (click)="addItem(2)">+</button>
+                </div>
+                <div>
+                    <a style="cursor: pointer;" (click)="removeFromCart(2)">Remove</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="col-width">Total Price : {{totalPrice}}</div>
+    <hr>
+    <div>
+        <div class="">
+            <button>Place Order</button>
+        </div>
+    </div>
+</div>

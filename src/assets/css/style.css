@@ -1,0 +1,109 @@
+.container-fluid {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px 50px;
+    background: skyblue;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #233101;
+    width: 120px;
+    height: auto;
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+    border: 1px solid #638f00;
+    font-size: 16px;
+    color: #2b292d;
+    line-height: 28px;
+    text-align: right;
+    font-family: 'Product sans-serif' ;
+}
+nav.navbar.navbar-expand-lg.navbar-light.menu {
+    padding: 15px 0px;
+}
+nav.navbar {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 94%;
+}
+.logoimg-section {
+    width: 100%;
+    max-width: 280px;
+    height: 100%;
+    max-height: 70px;
+}
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 999;
+    background: skyblue;
+}
+header{
+    font-family: 'Adelle';
+    box-shadow: 0px 0px 8px 0px #cbcbcb;
+}
+.header-para-heading {
+    margin-bottom: 0px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.header-para-heading-sh {
+    margin-bottom: 0px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: -25px;
+    width: 100%;
+    min-width: 92px;
+}
+ul.navbar-nav.mr-auto {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.product-blocks{
+    display: flex;
+    margin-top: 120px;
+    margin-left: 20px;
+}
+.item-pic{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+.product-list{
+    display: grid;
+}
+.add-on{
+    width: 100px;
+    margin-left: 60px;
+}
+.item-prize{
+    text-align: center;
+    font-size: 1rem;
+}
+.item-title{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.cart-item{
+    margin-top: 100px;
+    padding: 20px;
+}
+.cart-detail{
+    display: flex;
+}
+.cart-addOn{
+    display: flex;
+}
+.cart-count{
+    display: flex;
+}
+.item-pic1{
+    width: 100px;
+    height: 100px;
+}
+

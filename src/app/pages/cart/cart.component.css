@@ -1,0 +1,16 @@
+.cart-detail{
+    margin: 10px;
+}
+.back-btn{
+    cursor: pointer;
+    color: blue;
+    }
+    
+    .col-width{
+        width: 25%;
+    }
+    
+    button{
+        height: 30%;
+        margin: 0px 10px 10px;
+    }
